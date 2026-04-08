@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ngnnwoqljt2le.ok.kimi.link/sitemap.xml
