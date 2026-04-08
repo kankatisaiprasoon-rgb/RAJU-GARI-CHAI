@@ -1,13 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RAJU GARI CHAI</title>
-    <script type="module" crossorigin src="./assets/index-DuIpg6A_.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CuregI_K.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJU GARI CHAI</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff9800, #ff5722);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.whatsapp {
+  margin: 30px;
+}
+
+.whatsapp a {
+  background: #25D366;
+  padding: 15px 25px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>☕ RAJU GARI CHAI</h1>
+  <p>Fresh & Tasty Hotel Items</p>
+</header>
+
+<div class="menu">
+
+  <div class="card">
+    <h3>Tea</h3>
+    <p class="price">₹10</p>
+  </div>
+
+  <div class="card">
+    <h3>Coffee</h3>
+    <p class="price">₹20</p>
+  </div>
+
+  <div class="card">
+    <h3>Ragi Java</h3>
+    <p class="price">₹20</p>
+  </div>
+
+  <div class="card">
+    <h3>Atukulu</h3>
+    <p class="price">₹10</p>
+  </div>
+
+  <div class="card">
+    <h3>Osmania Biscuit</h3>
+    <p class="price">₹5</p>
+  </div>
+
+  <div class="card">
+    <h3>Idli (4 pcs)</h3>
+    <p class="price">₹30</p>
+  </div>
+
+  <div class="card">
+    <h3>Puri (4 pcs)</h3>
+    <p class="price">₹30</p>
+  </div>
+
+</div>
+
+<div class="whatsapp">
+  <a href="https://wa.me/919052754568" target="_blank">
+    📞 Order on WhatsApp
+  </a>
+</div>
+
+<div class="footer">
+  © 2026 RAJU GARI CHAI
+</div>
+
+</body>
 </html>
